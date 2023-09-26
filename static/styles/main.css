@@ -7,8 +7,9 @@
   }
 
 body{
-    background-color: rgba(232,233,239,1);
+    background-color: rgb(7, 7, 8);
     font-family: 'Roboto', sans-serif;
+    color: white
 }
 
 
@@ -17,7 +18,7 @@ body{
 #form-container{
     width: 400px;
     box-shadow:var(--shaddow);
-    background-color: #fff;
+    background-color: #212b36;
     padding: 30px;
     border-radius: 5px;
     position: fixed;
@@ -44,7 +45,7 @@ body{
 
 #welcome-message p{
     font-size: 16px;
-    color: rgb(97, 98, 105);
+    color: #e6eaf2;
     font-weight: 300;
 }
 
@@ -59,11 +60,13 @@ body{
 
 .form-field input{
     width: 100%;
-    border:2px solid rgba(198,202,219,1);
+    color: #fff;
+    /* border:2px solid rgba(198,202,219,1); */
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
     box-sizing: border-box;
+    background-color: #3f434a;
 }
 
 .form-field input[type='submit']{
@@ -169,7 +172,8 @@ body{
 }
 
 #form__container__header {
-    border-radius: 10px 10px 0 0;
+    /* border-radius: 10px 10px 0 0; */
+    width: 400px;
     padding: 10px;
     text-align: center;
     background-color: #363739;
