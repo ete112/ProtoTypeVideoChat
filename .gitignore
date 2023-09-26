@@ -1,1 +1,4 @@
 chat/
+base/__pycache__/*
+base/migrations/*
+mychat/__pycache__/*
