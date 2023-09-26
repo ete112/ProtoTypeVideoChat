@@ -2,3 +2,4 @@ chat/
 base/__pycache__/*
 base/migrations/*
 mychat/__pycache__/*
+db.sqlite3
