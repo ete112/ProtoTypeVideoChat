@@ -167,3 +167,14 @@ body{
 #leave-btn{
     background-color: #fff;
 }
+
+#form__container__header {
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #363739;
+    margin: 0;
+    font-size: 18px;
+    font-size: 300;
+    line-height: 0;
+  }
